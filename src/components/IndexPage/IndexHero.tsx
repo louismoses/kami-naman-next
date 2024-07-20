@@ -10,7 +10,7 @@ export default function IndexHero() {
       <div className="max-w-[1224px] flex w-full">
         <ScrollDown80>
           <div className="p-8 mb-10 max-w-[748px]">
-            <h2 className="text-4xl font-black">
+            <h2 className="text-xl md:text-4xl font-black">
               Did you know that only about 237 children are adopted and fostered
               each year, out of 5 to 7 million children that are neglected,
               orphaned, and abused in the Philippines?
@@ -21,7 +21,7 @@ export default function IndexHero() {
       </div>
       <div className=" absolute bottom-8 p-8">
         <ScrollUp40>
-          <span className="text-2xl font-medium italic text-yellow">
+          <span className=" text-md md:text-2xl font-medium italic text-yellow">
             Scroll down to play the video
           </span>
         </ScrollUp40>
