@@ -8,7 +8,7 @@ export default function IndexNav() {
   return (
     <div className="absolute z-10 w-full flex flex-col items-center gap-4 bottom-8 md:bottom-16">
       <div>
-        <Link href="/home" passHref>
+        <Link href="/the-story" passHref>
           <motion.div
             transition={{ duration: 0.5 }}
             whileHover={{ scale: 1.1 }}
