@@ -1,5 +1,5 @@
-import ScrollUp40 from "./motion/ScrollUp40";
-import ScrollDown80 from "./motion/ScrollDown80";
+import ScrollUp40 from "../motion/ScrollUp40";
+import ScrollDown80 from "../motion/ScrollDown80";
 
 export default function IndexHero() {
   return (
