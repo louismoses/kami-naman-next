@@ -1,11 +1,36 @@
 "use client";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function TheirStories() {
   return (
-    <div>
-      <h1 className="text-5xl">Their Stories</h1>
-      <Button variant="outlined">Button</Button>
-    </div>
+    <section
+      className="min-h-[100vh] bg-cover bg-no-repeat w-full flex justify-center items-center"
+      style={{ backgroundImage: 'url("/img/green-bg.png")' }} //
+    >
+      <div className="flex flex-col">
+        <h1 className="text-5xl kn-text-yellow font-bold drop-shadow-lg">
+          KNOW THEIR STORIES
+        </h1>
+        <div>
+          <Image
+            src={"/img/jasmin-full-illustration.png"}
+            width={90}
+            height={90}
+            alt="jasmine"
+            unoptimized
+          />
+        </div>
+        <div className="flex justify-between">
+          <Button>Know Our Story</Button>
+          <div>
+            <p className="text-right text-white">
+              Want to share your ILP story? <br />
+              <span className="kn-text-yellow font-bold"> Message us!</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }

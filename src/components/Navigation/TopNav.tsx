@@ -36,10 +36,11 @@ const TopNav = ({}) => {
     <nav className="fixed p-8 flex w-full max-w-[1224px] m-auto left-0 right-0  items-center justify-between">
       <Link href={"/the-story"}>
         <Image
-          src="/img/logo.png"
+          src={"/img/logo.png"}
           alt="Kami Naman logo"
           width={90}
           height={40}
+          unoptimized
         />
       </Link>
       <div className="flex gap-7 text-white">
