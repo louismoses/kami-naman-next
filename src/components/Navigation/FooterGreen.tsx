@@ -47,6 +47,7 @@ export default function FooterGreen() {
                   alt="Kami Naman logo"
                   width={600}
                   height={277}
+                  unoptimized
                 />
               </div>
               <p>

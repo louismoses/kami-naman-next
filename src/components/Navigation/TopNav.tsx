@@ -52,6 +52,7 @@ const TopNav = ({}) => {
           width={600}
           height={277}
           priority
+          unoptimized
         />
       </Link>
       <div className="hidden lg:flex gap-7 text-white items-center ">
