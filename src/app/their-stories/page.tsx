@@ -4,10 +4,7 @@ import Image from "next/image";
 
 export default function TheirStories() {
   return (
-    <section
-      className="min-h-[100vh] bg-cover bg-no-repeat w-full flex justify-center items-center"
-      style={{ backgroundImage: 'url("/img/green-bg.png")' }} //
-    >
+    <>
       <div className="flex flex-col">
         <h1 className="text-5xl kn-text-yellow font-bold drop-shadow-lg">
           KNOW THEIR STORIES
@@ -31,6 +28,6 @@ export default function TheirStories() {
           </div>
         </div>
       </div>
-    </section>
+    </>
   );
 }

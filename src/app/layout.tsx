@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import TopNav from "@/components/Navigation/TopNav";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -40,7 +41,11 @@ export default function RootLayout({
           href="/img/favicon-16x16.png"
         />
       </head>
-      <body className={poppins.className}>{children}</body>
+
+      <body className={poppins.className}>
+        <TopNav />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
