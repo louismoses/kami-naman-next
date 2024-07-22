@@ -6,10 +6,10 @@ const OurStory = ({}) => {
   return (
     <div className=" min-h-screen w-full m-auto max-w-[1016px] p-8 pt-40 text-white">
       <div>
-        <h1 className="text-5xl kn-text-yellow font-bold drop-shadow-lg">
+        <h1 className="text-4xl kn-text-yellow font-black drop-shadow-lg">
           OUR STORY
         </h1>
-        <p className=" pt-8">
+        <p className=" pt-4">
           KAMI NAMAN is an Interactive Media Campaign organized by researchers
           with the specific objective of highlighting the significance and
           importance of the contributions made by the Independent Living Program

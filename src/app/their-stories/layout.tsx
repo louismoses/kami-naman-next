@@ -1,3 +1,4 @@
+import FooterBlue from "@/components/Navigation/FooterBlue";
 import TopNav from "@/components/Navigation/TopNav";
 export default function PrimaryLayout({
   children,
@@ -13,7 +14,7 @@ export default function PrimaryLayout({
       >
         {children}
       </section>
-      ;
+      <FooterBlue />
     </>
   );
 }

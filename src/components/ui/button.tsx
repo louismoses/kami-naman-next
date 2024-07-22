@@ -19,6 +19,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         outlined:
           "border text-base font-bold rounded-lg text-primary-foreground ",
+        knYellow: "bg-[#fcce55] text-black hover:scale-105",
       },
       size: {
         default: "h-10 px-4 py-2",

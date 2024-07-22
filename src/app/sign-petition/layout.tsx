@@ -1,4 +1,4 @@
-import FooterBlue from "@/components/Navigation/FooterBlue";
+import FooterGreen from "@/components/Navigation/FooterGreen";
 import TopNav from "@/components/Navigation/TopNav";
 export default function PrimaryLayout({
   children,
@@ -10,11 +10,11 @@ export default function PrimaryLayout({
       <TopNav />
       <section
         className="min-h-[100vh] bg-cover bg-no-repeat w-full flex justify-center items-center"
-        style={{ backgroundImage: 'url("/img/green-bg.png")' }}
+        style={{ backgroundImage: 'url("/img/blue-bg.png")' }}
       >
         {children}
       </section>
-      <FooterBlue />
+      <FooterGreen />
     </>
   );
 }
