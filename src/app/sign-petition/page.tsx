@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export default function SignPetition() {
   return (
     <div className=" min-h-[100vh] w-full m-auto max-w-[1032px] p-8 pt-40 text-white">
-      <div className="flex gap-8">
+      <div className="flex flex-col lg:flex-row gap-8">
         <div className="w-full flex flex-col gap-4 flex-auto">
           <h1 className="text-4xl kn-text-yellow font-black drop-shadow-lg">
             SIGN THE PETITION
@@ -29,14 +29,12 @@ export default function SignPetition() {
             alt="petition qr code"
           />
         </div>
-        <div>
-          {" "}
+        <div className="max-w-[565px] m-auto">
           <Image
             src={"/img/petition-poster.png"}
             alt="Petition Poster"
             width={1920}
             height={1080}
-            className="max-w-[565px]"
           />
         </div>
       </div>
