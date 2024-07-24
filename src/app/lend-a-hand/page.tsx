@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function LendAHand() {
   return (
-    <div className=" min-h-[50vh] w-full m-auto max-w-[1032px] p-8 pt-40 text-white">
+    <div className=" min-h-screen w-full m-auto max-w-[1032px] p-8 pt-40 text-white">
       <div>
         <h1 className="text-4xl kn-text-yellow font-black drop-shadow-lg">
           LEND A HAND

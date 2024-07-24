@@ -30,6 +30,10 @@ export default function FooterBlue() {
       title: "Lend a Hand",
       path: "/lend-a-hand",
     },
+    {
+      title: "Sign the Petition",
+      path: "/sign-petition",
+    },
   ];
   return (
     <footer id="footer">
@@ -78,7 +82,6 @@ export default function FooterBlue() {
                       <span className="">{menu.title}</span>
                     </Link>
                   ))}
-                  <Link href={"/sign-petition"}>Sign the Petition</Link>
                 </div>
               </div>
               <div className="flex flex-col gap-3">
