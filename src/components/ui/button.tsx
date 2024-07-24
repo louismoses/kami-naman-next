@@ -20,6 +20,7 @@ const buttonVariants = cva(
         outlined:
           "border text-base font-bold rounded-lg text-primary-foreground ",
         knYellow: "bg-[#fcce55] text-black hover:scale-105",
+        knBlue: "bg-[#39599d] text-white font-bold hover:scale-105",
       },
       size: {
         default: "h-10 px-4 py-2",
