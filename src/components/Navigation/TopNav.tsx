@@ -44,7 +44,7 @@ const TopNav = ({}) => {
     },
   ];
   return (
-    <nav className="fixed p-8 flex w-full max-w-[1224px] m-auto left-0 right-0  items-center justify-between">
+    <nav className="fixed p-8 flex w-full max-w-[1224px] m-auto left-0 right-0  items-center justify-between z-10">
       <Link href={"/"} className="w-[80px]">
         <Image
           src={"/img/logo.png"}

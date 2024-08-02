@@ -71,3 +71,33 @@
 .kn-text-yellow {
   color: #fcce55;
 }
+
+/*  */
+.illustration-container img {
+  width: auto;
+}
+#jasmin-container {
+  margin-right: -48px;
+  margin-bottom: auto;
+  margin-top: -40px;
+}
+#kristine-container {
+  margin-bottom: 72px;
+}
+#daniela-container {
+  margin-left: -48px;
+  margin-top: 40px;
+}
+#rey-container {
+  margin: auto -24px -8px;
+}
+#wilson-container {
+  margin-top: 68px;
+}
+a#sheilamay-container {
+  margin: auto -24px 52px;
+}
+#laizanny-container {
+  margin-left: -32px;
+  margin-top: -40px;
+}
