@@ -4,6 +4,7 @@ import Image from "next/image";
 import { title } from "process";
 
 import { initializeTooltips } from "@/lib/tooltip";
+import Link from "next/link";
 
 interface KidIllustration {
   title: string;
@@ -28,7 +29,7 @@ export default function TheirStories() {
       path: "/img/daniela-full-illustration.png",
     },
     {
-      title: "REY",
+      title: "REYNALDO",
       path: "/img/rey-full-illustration.png",
     },
     {
@@ -52,7 +53,8 @@ export default function TheirStories() {
         </h1>
         <div className="flex relative illustration-container">
           {kids.map((kid, index) => (
-            <a
+            <Link
+              href={`/their-stories/${CaseLower(kid.title)}`}
               key={index}
               id={`${CaseLower(kid.title)}-container`}
               className="relative"
@@ -67,7 +69,7 @@ export default function TheirStories() {
                 alt={kid.title}
                 unoptimized
               />
-            </a>
+            </Link>
           ))}
         </div>
         <div className="flex justify-between">
