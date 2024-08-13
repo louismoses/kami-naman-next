@@ -88,7 +88,9 @@ export default function TheirStories() {
           ))}
         </div>
         <div className="flex justify-between">
-          <Button variant={"knBlue"}>Know Our Story</Button>
+          <Link href={`/our-story`}>
+            <Button variant={"knBlue"}>Know Our Story</Button>{" "}
+          </Link>
           <div>
             <p className="text-right text-white">
               Want to share your ILP story? <br />
