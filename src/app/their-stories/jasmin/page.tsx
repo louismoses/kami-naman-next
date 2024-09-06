@@ -1,7 +1,11 @@
 import Image from "next/image";
+import Header1 from "@/components/header-1";
+import Header2 from "@/components/header-2";
+import Header3 from "@/components/header-3";
+
 export default function Jasmin() {
   return (
-    <div className=" w-full  py-4 px-32">
+    <div className=" w-full  py-4 xl:px-80 ">
       <div className="relative h-full grid xl:grid-cols-2 ">
         <div className="">
           <Image
@@ -11,11 +15,11 @@ export default function Jasmin() {
             height={768}
           />
         </div>
-        <div className="min-h-[100vh]">
-          <div className=" flex flex-col justify-center items-end py-80">
-            <h1 className="text-8xl font-black drop-shadow-[8px_8px_10.5px_hwb(0deg_0%_100%/_25%)]  text-right kn-text-yellow">
+        <div className="min-h-[100vh] px-4">
+          <div className=" flex flex-col justify-center items-end md:py-80 ">
+            <Header1>
               JASMIN <br /> LOPEZ
-            </h1>
+            </Header1>
             <div className="text-right flex gap-2 justify-end items-center mr-20 mt-10">
               <Image
                 src={"/img/play-button-icon.png"}
@@ -23,27 +27,27 @@ export default function Jasmin() {
                 width={32}
                 height={32}
               />
-              <p className="text-white">Listen to them</p>
+              <p className="text-white ">Listen to them</p>
             </div>
           </div>
-          <div className="text-white text-right">
-            <h2>PART 1:</h2>
-            <h3>EXPECTATIONS</h3>
-            <p>
+          <div className="text-white text-right py-40">
+            <Header2> PART 1:</Header2>
+            <Header3>EXPECTATIONS</Header3>
+            <p className="pt-4 font-bold">
               Jasmin Lopez, 23 years old, an Independent Living Program graduate
               was transferred to First Love International Ministry shelter in
               Antipolo City in 2017 and stayed there until 2021. Jasmin did not
               disclose the reason for her transfer to the shelter but recalled
               her initial feelings about being transferred to a new environment.
             </p>
-            <p>
+            <p className="pt-4">
               Jasmin Lopez, 23 years old, an Independent Living Program graduate
               was transferred to First Love International Ministry shelter in
               Antipolo City in 2017 and stayed there until 2021. Jasmin did not
               disclose the reason for her transfer to the shelter but recalled
               her initial feelings about being transferred to a new environment.
             </p>
-            <p>
+            <p className="pt-4">
               Jasmin Lopez, 23 years old, an Independent Living Program graduate
               was transferred to First Love International Ministry shelter in
               Antipolo City in 2017 and stayed there until 2021. Jasmin did not
